@@ -38,7 +38,7 @@ object Main {
   val origins:Array[String] = Array("DXB", "BMB", "MAA", "CMB","SIN","JFK","LHR", "LCY","LGW")
   val destinations:Array[String] = Array("DXB", "BMB", "MAA", "CMB","SIN","JFK","LHR", "LCY","LGW", "KSA")
   val randomFltNo:()=>String = ()=> {
-      "EK"+ThreadLocalRandom.current().nextInt(200,300)
+      "ZK"+ThreadLocalRandom.current().nextInt(200,300)
   }
   var fltEvents:Array[String] = Array("Arrived", "Departed","Airborne","Cancelled","Chock-On", "Chock-Off")
 
